@@ -1,0 +1,11 @@
+// General variables
+_x = x;
+_y = y;
+hspd = 4;
+vspd = 0;
+grav = 0.3;
+movespd = 4;
+jumpspd = 8;
+hp = 4;
+flash_length = 0;
+hit_direction = 0;
