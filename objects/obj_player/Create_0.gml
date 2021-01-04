@@ -12,4 +12,5 @@ vspd = 0;
 grav = 0.3;
 movespd = 4;
 jumpspd = 8;
+has_control = true;
 instance_create_layer(0, 0, "Guns", obj_gun);

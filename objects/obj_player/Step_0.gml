@@ -1,12 +1,17 @@
 // General movement calculations
-var move = keyboard_check(key_right) - keyboard_check(key_left);
-hspd = move * movespd;
-vspd += grav;
+if has_control{
+	var move = keyboard_check(key_right) - keyboard_check(key_left);
+	hspd = move * movespd;
+	vspd += grav;
 
 
-// Check for jumping
-if keyboard_check_pressed(key_jump) and place_meeting(x, y + 1, obj_block){
-	vspd = -jumpspd;
+	// Check for jumping
+	if keyboard_check_pressed(key_jump) and place_meeting(x, y + 1, obj_block){
+		vspd = -jumpspd;
+	}
+}else{
+	hspd = 0;
+	vspd = 0;
 }
 
 

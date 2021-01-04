@@ -1,5 +1,4 @@
 {
-  "name": "ts_grass",
   "spriteId": {
     "name": "spr_ts_grass",
     "path": "sprites/spr_ts_grass/spr_ts_grass.yy",
@@ -135,6 +134,7 @@
     "path": "folders/Tile Sets.yy",
   },
   "resourceVersion": "1.0",
+  "name": "ts_grass",
   "tags": [],
   "resourceType": "GMTileSet",
 }

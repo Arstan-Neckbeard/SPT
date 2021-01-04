@@ -1,5 +1,5 @@
 // Destroy instance in the event of a wall collision
-if place_meeting(x, y, obj_block){
+if place_meeting(x + hspeed, y + vspeed, obj_block){
 	instance_destroy();
 }
 
