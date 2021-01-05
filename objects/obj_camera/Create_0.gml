@@ -18,3 +18,9 @@ x_dest = target.x;
 y_dest = target.y;
 _x = x;
 _y = y;
+
+
+shake_length = 0;
+shake_magnitude = 0;
+shake_remain = 0;
+buff = 32;

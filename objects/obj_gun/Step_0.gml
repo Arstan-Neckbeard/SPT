@@ -19,6 +19,7 @@ if mouse_check_button(fire_button) and !ready_to_fire--{
 		image_angle = other.image_angle + random_range(-3, 3);
 		direction = image_angle;
 	}
+	screen_shake(2, 5);
 }
 
 

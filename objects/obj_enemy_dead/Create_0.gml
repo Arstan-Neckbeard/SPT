@@ -7,3 +7,5 @@ grav = 0.3;
 at_rest = 0;
 
 image_speed = 0;
+
+screen_shake(6, 25);
