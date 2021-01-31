@@ -11,3 +11,5 @@ enum TRANS_MODE{
 	INTRO
 }
 mode = TRANS_MODE.INTRO;
+
+key_reset = ord("R");

@@ -3,8 +3,6 @@ key_left = ord("A");
 key_right = ord("D");
 key_jump = vk_space;
 
-key_reset = ord("R");
-
 _x = x;
 _y = y;
 hspd = 0;
